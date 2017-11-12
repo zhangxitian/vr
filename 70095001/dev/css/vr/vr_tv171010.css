@@ -1,0 +1,386 @@
+.vr-tv171010 .big-img .image .content p, .vr-tv171010 .dynamic-flex-list h4, .vr-tv171010 .time-from, .vr-tv171010 .tv-sort-final p {
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.vr-tv171010 .list-img-flex .img-flex .text-layout p {
+  font-size: 19px;
+  line-height: 27px;
+}
+
+.vr-tv171010 .special {
+  margin-top: 0;
+}
+
+.vr-tv171010 .big-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.vr-tv171010 .big-img .img-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vr-tv171010 .big-img .image {
+  position: relative;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.vr-tv171010 .big-img .image .mask {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.3), transparent);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), transparent);
+}
+
+.vr-tv171010 .big-img .image img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.vr-tv171010 .big-img .image i {
+  background: url("../../images/hot_tv_icon.png") center center no-repeat;
+  width: 36px;
+  height: 40px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 19px;
+  background-size: 36px;
+  z-index: 3;
+}
+
+.vr-tv171010 .big-img .image .content {
+  position: absolute;
+  bottom: 10px;
+  left: 19px;
+  width: 100%;
+}
+
+.vr-tv171010 .big-img .image .content h4 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.vr-tv171010 .big-img .image .content p {
+  color: #dededf;
+  width: 100%;
+  padding-right: 110px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.vr-tv171010 .big-img .box-toggle {
+  position: absolute;
+  right: 19px;
+  bottom: 25px;
+  width: 40px;
+}
+
+.vr-tv171010 .keywords {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 16px;
+}
+
+.vr-tv171010 .keywords a {
+  margin-right: 10px;
+  width: 60px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #333;
+  background: #f5f5f5;
+  border-radius: 2px;
+}
+
+.vr-tv171010 .keywords a:last-child {
+  margin-right: 0;
+}
+
+.vr-tv171010 .list-img-flex .img-flex {
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 0;
+}
+
+.vr-tv171010 .list-img-flex .img-flex .text-layout p {
+  color: #333;
+}
+
+.vr-tv171010 .list-img-flex .img-flex .text-layout time {
+  display: block;
+  color: #999;
+  position: absolute;
+  bottom: 5px;
+}
+
+.vr-tv171010 .list-img-flex .img-flex .img-layout {
+  margin-bottom: 8px;
+}
+
+.vr-tv171010 .list-img-flex .space-default:last-child {
+  padding-bottom: 8px;
+  border-bottom: solid 1px #f1f1f1;
+}
+
+.vr-tv171010 .load-default {
+  padding: 20px 0 5px;
+}
+
+.vr-tv171010 .recm .list-img-flex {
+  margin-top: 8px;
+}
+
+.vr-tv171010 .scroll-layout-column .item-text {
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.vr-tv171010 .item-list {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.vr-tv171010 .item-list .img-tag {
+  overflow: hidden;
+}
+
+.vr-tv171010 .item-list .item-title {
+  color: #333;
+  line-height: 23px;
+}
+
+.vr-tv171010 .item-list .item-time {
+  color: #999;
+}
+
+.vr-tv171010 .resultLink {
+  position: relative;
+  color: #333;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.vr-tv171010 .dynamic-hidden {
+  margin-bottom: 8px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.vr-tv171010 .dynamic-layout {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: -20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 19px;
+}
+
+.vr-tv171010 .dynamic-flex-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.vr-tv171010 .dynamic-flex-list .img-flex {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 1px #eee;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 10px;
+}
+
+.vr-tv171010 .dynamic-flex-list .img-layout {
+  width: 30%;
+  margin-bottom: 0;
+}
+
+.vr-tv171010 .dynamic-flex-list .text-layout {
+  padding-right: 10px;
+  margin-top: 0;
+}
+
+.vr-tv171010 .dynamic-flex-list h4 {
+  white-space: normal;
+}
+
+.vr-tv171010 .time-from {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #999;
+  margin-top: 6px;
+  font-style: normal;
+}
+
+.vr-tv171010 .time-from time {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.vr-tv171010 .tv-sort {
+  padding: 13px 0;
+}
+
+.vr-tv171010 .scroll-sort {
+  width: 100%;
+}
+
+.vr-tv171010 .scroll-sort .item-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 7px 0;
+}
+
+.vr-tv171010 .scroll-sort .item-list a {
+  display: inline-block;
+  padding: 0 14px;
+  height: 28px;
+  line-height: 28px;
+  margin-right: 9px;
+  color: #333;
+}
+
+.vr-tv171010 .scroll-sort .item-list .active {
+  background: #f5f5f5;
+  border-radius: 2px;
+  color: #f4292e;
+}
+
+.vr-tv171010 .srcoll-sort-alone {
+  padding: 0 19px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: -20px;
+}
+
+.vr-tv171010 .srcoll-sort-alone .item-list {
+  padding-right: 19px;
+  margin-top: 20px;
+  -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.vr-tv171010 .tv-sort-final {
+  padding-top: 13px;
+  margin-bottom: -8px;
+}
+
+.vr-tv171010 .tv-sort-final p {
+  color: #999;
+}
+
+.vr-tv171010 .tv-sort-final span {
+  position: relative;
+  padding: 0 5px;
+  color: #333;
+}
+
+.vr-tv171010 .tv-sort-final span:first-child {
+  padding-left: 0;
+}
+
+.vr-tv171010 .tv-sort-final .last-item:after {
+  font-family: 'iconfont' !important;
+  position: absolute;
+  top: -3px;
+  right: -13px;
+  display: block;
+  content: '\e664';
+  font-weight: bold;
+  font-size: 11px;
+  color: #797979;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.vr-tv171010 .tv-sort-final .item:after {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #333;
+  display: inline-block;
+  position: absolute;
+  right: -3px;
+  top: 6px;
+}
+
+.vr-tv171010 .scroll-layout + .more-box-new {
+  padding-top: 0;
+}
+
+.vr-tv171010 .tv-list + .load-default {
+  margin-top: -8px;
+}
+
+.vr-tv171010 .space-txt {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.vr-tv171010 .space-default {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.vr-tv171010 .border-bottom {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+
+.vr-tv171010 .border-top {
+  margin-top: 8px;
+  padding-top: 8px;
+}
+
+.vrMargin:after {
+  content: '';
+  display: block;
+  width: inherit;
+  height: 7px;
+  background: #f1f1f1;
+  margin-right: -19px;
+  margin-left: -19px;
+}
+
+.vrMargin .item-list {
+  padding-top: 12px;
+}
+
+.vrMargin .scroll-layout {
+  padding-bottom: 12px;
+}
